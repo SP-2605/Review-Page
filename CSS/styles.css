@@ -1,0 +1,157 @@
+/* navigation-bar */
+
+.navbar-brand{
+  font-family: 'Fredoka One', cursive;
+  font-weight: 300;
+}
+
+.nav-image{
+  width: 75px;
+}
+
+.nav-item{
+  font-family: 'Comfortaa', cursive;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+/* first page */
+
+.first-page{
+  width: 100%;
+  height: 600px;
+  background-color: #263238 ;
+  padding-top: 30px;
+}
+
+.div-tagline{
+text-align: center;
+}
+
+.tagline{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 800;
+  font-size: 2.7rem;
+  color: #ffca28;
+  line-height: 2.0;
+}
+
+.confused-robot{
+  width: 65%;
+  position: relative;
+  z-index: 1;
+}
+
+.phone{
+ width: 20%;
+ position: relative;
+ transform: rotate(34deg);
+ top: 76px;
+}
+
+.watch{
+  width: 20%;
+  position: relative;
+  transform: rotate(-14deg);
+  bottom: -3px;
+  left: 67px;
+}
+.laptop{
+  width: 20%;
+  position: relative;
+  transform: rotate(-24deg);
+  bottom: 18px;
+  left: -18px;
+  width: 92px;
+}
+.camera{
+  width: 20%;
+  position: relative;
+  transform: rotate(12deg);
+  bottom: -48px;
+  left: 23px;
+  width: 92px;
+}
+
+/* SECOND PAGE */
+
+.second-page{
+  width: 100%;
+  height: 575px;
+  background-color: #ff8f00;
+}
+
+.robot-img{
+  padding-right: 24%;
+  width: 140%;
+}
+
+.div-tagline-2{
+ text-align: center;
+}
+
+.tagline-2{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.youreview{
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+}
+
+/* SELECTION-AREA */
+
+.selection-area{
+  width: 100%;
+  height: 195px;
+  background-color: #263238;
+}
+
+.col-lg-3{
+  padding: 70px 40px;
+  text-align: center;
+  outline-style: none;
+}
+
+.styling-button{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color:#e0e0e0;
+  border: 3px solid #e0e0e0;
+  padding: 15px 60px;
+  border-radius: 50px;
+  background-color: #ff6f00 ;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+
+.styling-button:hover{
+  border: 3px solid #ff6f00;
+  background-color: #ffb300;
+  color: #37474f;
+  font-size: 1.2rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+.styling-button:active{
+  border: 3px solid #e65100;
+  background-color: #ff6f00;
+  color: #37474f;
+  font-weight: 800;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
